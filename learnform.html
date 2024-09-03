@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learn form</title>
+  </head>
+  <body>
+    <h1>The fieldset element</h1>
+
+    <form action="">
+        
+      <!-- Personal Details -->
+      <fieldset name="personal_details">
+        <legend><b>Personal Details</b></legend>
+        <!-- First name-->
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" /> <br />
+
+        <!-- Last Name-->
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" /><br />
+        <!--Email-->
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email" /> <br />
+        <!-- Phone number-->
+        <label for="phone"> Phone Number:</label>
+        <input type="tel" id="phone" name="phone" />
+      </fieldset>
+      <br />
+      <!--Professional Details-->
+      <fieldset>
+        <legend><b>Professional Details</b></legend>
+
+        <!-- Occupation-->
+        <label for="occupation">Occupation:</label>
+        <input type="text" id="occupation" name="occupation" /> <br />
+
+        <!-- Company -->
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" />
+        <br />
+        <!--Start Date -->
+        <label for="start">Start Date:</label>
+        <input type="date" id="start" name="start" />
+        <br />
+        <!-- End Date -->
+        <label for="end">End Date:</label>
+        <input type="date" id="end" name="end" />
+      </fieldset>
+      <br />
+      <!-- Submit-->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
