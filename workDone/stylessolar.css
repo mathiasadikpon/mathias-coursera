@@ -12,6 +12,6 @@ table, th, td{
   border: 2px solid black;
 }
 
-th{
+.yheader{
   background-color: yellow;
 }
